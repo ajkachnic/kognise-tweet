@@ -5,18 +5,11 @@ import (
 	"flag"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"strings"
 
 	"github.com/ajkachnic/tweet-from/tweet"
-	"github.com/joho/godotenv"
 	"github.com/mb-14/gomarkov"
 )
-func init() {
-	if err := godotenv.Load(); err != nil {
-		log.Print("No .env file found")
-	}
-}
 
 func getTweetsFromFile() tweet.TwitterResponse {
 	file, err := ioutil.ReadFile("data.json")
