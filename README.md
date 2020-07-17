@@ -11,6 +11,8 @@ git clone https://github.com/ajkachnic/kognise-tweet.git
 
 cd kognise-tweet
 
+go get
+
 go run main.go -train
 
 go run main.go
