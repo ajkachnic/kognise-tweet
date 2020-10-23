@@ -34,6 +34,8 @@ Maybe... you'd need to download all of their tweets (via [GetOldTweets](https://
 
 And then convert that from a CSV file to a JSON file. Replace `data.json` with that file. Note that there might be some cleaing up to do, like removing tweets with only numbers or booleans.
 
+Just want to point out that I by no way endorse doing this, it's not a good idea...
+
 ## Notes
 
 You can run with the `-count` flag to set a number of tweets.
