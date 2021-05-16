@@ -2,7 +2,7 @@
 
 Generates a tweet from kognise...
 
-Uses a markov chain and generates tweets based off his tweeting history
+Uses a markov chain and generates tweets based off her tweeting history
 
 ## Usage
 
